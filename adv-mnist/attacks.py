@@ -1,5 +1,5 @@
 import torch as ch
-from YellowFin_Pytorch.tuner_utils.yellowfin import YFOptimizer
+from .YellowFin_Pytorch.tuner_utils.yellowfin import YFOptimizer
 import numpy as np
 
 loss_fn = ch.nn.CrossEntropyLoss()
